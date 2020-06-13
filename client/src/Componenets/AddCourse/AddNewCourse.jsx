@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios';
 import { addCourse } from './CoursesFunctions';
 import CourseList from './CourseList'; 
+import Footer from './../Footer/Footer'
 export default class AddNewCourse extends Component {
 
 
@@ -110,6 +111,7 @@ export default class AddNewCourse extends Component {
 
          
 
+            <div>
             <section className="content-header">
               <div className="container-fluid">
         
@@ -120,7 +122,7 @@ export default class AddNewCourse extends Component {
         <div className="card card-primary">
               
         <div className="card-header">
-          <h3 className="card-title">Enter Dummy Data</h3>
+          <h3 className="card-title">Enter Course Data</h3>
         </div>
   
         <form onSubmit={this.onSubmitHandler}>
@@ -250,9 +252,10 @@ export default class AddNewCourse extends Component {
       </section>
       
           
-
+                        <Footer/>
       
 
+                        </div>
 
         )
     }

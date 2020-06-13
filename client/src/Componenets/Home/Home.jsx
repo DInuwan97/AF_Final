@@ -1,46 +1,46 @@
-import React from 'react'
-import './assets/css/styles.min.css';
+import React, { Component } from 'react';
 import Footer from '../../Componenets/Footer/Footer';
-export default function Home() {
+import './assets/css/styles.min.css'
+export default class Home extends Component {
+  render() {
     return (
         <div>
 
-    <div class="features-blue">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Features</h2>
-                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
-            </div>
-            <div class="row features">
-                <div class="col-sm-6 col-md-4 item"><i class="fa fa-map-marker icon"></i>
-                    <h3 class="name">Works everywhere</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
-                </div>
-                <div class="col-sm-6 col-md-4 item"><i class="fa fa-clock-o icon"></i>
-                    <h3 class="name">Always available</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
-                </div>
-                <div class="col-sm-6 col-md-4 item"><i class="fa fa-list-alt icon"></i>
-                    <h3 class="name">Customizable</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
-                </div>
-                <div class="col-sm-6 col-md-4 item"><i class="fa fa-leaf icon"></i>
-                    <h3 class="name">Organic</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
-                </div>
-                <div class="col-sm-6 col-md-4 item"><i class="fa fa-plane icon"></i>
-                    <h3 class="name">Fast</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
-                </div>
-                <div class="col-sm-6 col-md-4 item"><i class="fa fa-phone icon"></i>
-                    <h3 class="name">Mobile-first</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est.</p>
+<div>
+       
+        <div class="header-blue">
+            <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
+                <div class="container-fluid"><button class="navbar-toggler" data-toggle="collapse"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button></div>
+            </nav>
+            <div class="container hero">
+                <div class="row">
+                
+                    <div class="col-md-4">
+                        <h1>The Educational Revolution is here.</h1>
+                        <p>Mauris egestas tellus non ex condimentum, ac ullamcorper sapien dictum. Nam consequat neque quis sapien viverra convallis. In non tempus lorem. </p><button class="btn btn-light btn-lg action-button" type="button">Learn More</button>
+                        
+                        </div>
+                   
+                    <div class="col-md-8">
+                    
+                        <div className="iphone-mockup">
+         
+                            <img  style={{marginTop:0}}src="https://dinuwankalubowilaportfolio.000webhostapp.com/FeedCX/img/welcome-img.png"/>
+                           
+                        </div>
+                
+                    </div>
                 </div>
             </div>
         </div>
+    
     </div>
-
-    <Footer/>
-        </div>
-    )
+        
+            
+        
+            <Footer/>
+                </div>
+    );
+  }
 }
+

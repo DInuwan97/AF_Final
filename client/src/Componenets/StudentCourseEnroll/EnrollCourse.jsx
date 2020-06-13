@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './assets/css/styles.min.css';
 import axios from 'axios';
 import swal from 'sweetalert';
-
+import Footer from './../Footer/Footer'
 import AllCourses from './AllCourseList';
 
 export default class EnrollCourse extends Component {
@@ -86,6 +86,7 @@ getAccesstoCourse = () =>{
         return (
                 
      
+<div>
         <section className="content-header" >
          
                 <div className="row">
@@ -141,6 +142,11 @@ getAccesstoCourse = () =>{
 </div>
      
         </section>
+
+        <Footer/>
+
+        </div>
+
    
         )
     }
