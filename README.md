@@ -1,1 +1,1 @@
-![Cloud Skills Challange](https://raw.githubusercontent.com/ms-club-sliit/cloud-skill-challenge/main/assets/img/logo/csc.png |width=48)
+AF Final Exam 2020-June
